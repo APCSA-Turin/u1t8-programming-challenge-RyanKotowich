@@ -102,5 +102,14 @@ this.gradYear = gradYear;
         System.out.println("Highest Test Score: " + highestTestScore);
         System.out.println("Is passing: " + isPassing());
     }
+    public String getStudentInfo() {
+        String info = "Student First Name: " + firstName + " " + lastName + "\n";
+        info += "Graduation Year: " + gradYear + "\n";
+        info += "Numer of Tests:" + testScoreCount + "\n";
+        info += "Average Test Score: " + averageTestScore() + "\n";
+        info += "Highest Test Score: " + "highestTestScore + "\n";
+        info += "Is Passing: " + isPassing() + "\n";
+        return info;
+    }
  }
  
